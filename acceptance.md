@@ -31,4 +31,24 @@
 - [ ] repeat("ab",3) returns "ababab"
 - [ ] startsWith("abc","ab") returns true; endsWith("abc","bc") returns true
 - [ ] chomp("abc\n") returns "abc"; chop("abc") returns "ab"
-- [ ] stripStart("  abc"," ") returns "abc"; stripEnd("abc  "," ") returns "abc"
+- [x] stripStart("  abc"," ") returns "abc"; stripEnd("abc  "," ") returns "abc"
+
+## Task 2: NumberUtils
+
+### Acceptance Criteria
+- [ ] toInt("123") returns 123; toInt("abc") returns 0; toInt("abc",5) returns 5
+- [ ] toLong("123") returns 123L; toLong("abc") returns 0L; toLong("abc",5L) returns 5L
+- [ ] toFloat("1.5") returns 1.5f; toFloat("abc") returns 0.0f; toFloat("abc",1.0f) returns 1.0f
+- [ ] toDouble("1.5") returns 1.5; toDouble("abc") returns 0.0; toDouble("abc",1.0) returns 1.0
+- [ ] toByte("1") returns (byte)1; toShort("1") returns (short)1
+- [ ] createNumber("123") returns Integer 123; createNumber("123L") returns Long 123; createNumber("0xFF") returns Integer 255; createNumber(null) returns null
+- [ ] createNumber("1.5") returns a floating-point Number; createNumber("1.5f") returns Float
+- [ ] createInteger("123") returns 123; createLong("123") returns 123L; createFloat/createDouble work similarly
+- [ ] createBigInteger and createBigDecimal parse valid strings
+- [ ] isCreatable("123") is true; isCreatable("0xFF") is true; isCreatable("1.5e10") is true; isCreatable("abc") is false
+- [ ] isParsable("123") is true; isParsable("12.3") is true; isParsable("0xFF") is false; isParsable("abc") is false
+- [ ] isDigits("123") is true; isDigits("") is false; isDigits(null) is false; isDigits("12.3") is false
+- [ ] min(1,2,3) returns 1; max(1,2,3) returns 3 (for int, long, double, float, short, byte)
+- [ ] min/max throw IllegalArgumentException for null or empty arrays
+- [ ] compare(1,2) returns negative; compare(2,1) returns positive; compare(1,1) returns 0
+- [ ] Constants like INTEGER_ZERO, LONG_ZERO, DOUBLE_ZERO etc. exist
