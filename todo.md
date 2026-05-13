@@ -4,7 +4,7 @@
 Implement the library top-down by user-facing functionality. Start with the most widely used utility classes (StringUtils, NumberUtils, ArrayUtils), then builder infrastructure, then specialized utilities and concurrent features. Each task delivers one cohesive module with full tests.
 
 ## Tasks
-- [ ] Task 1: Maven project setup + StringUtils with null-safe string operations (isEmpty, isBlank, trim, strip, equals, contains, indexOf, substring, split, join, replace, remove, capitalize, pad, reverse, abbreviate, type checks, countMatches, wrap, normalizeSpace, defaultString, truncate, etc.)
+- [>] Task 1: Maven project setup + StringUtils with null-safe string operations (isEmpty, isBlank, trim, strip, equals, contains, indexOf, substring, split, join, replace, remove, capitalize, pad, reverse, abbreviate, type checks, countMatches, wrap, normalizeSpace, defaultString, truncate, etc.)
 - [ ] Task 2: NumberUtils with safe parsing (toInt, toLong, toFloat, toDouble), number creation (createNumber, createInteger), validation (isCreatable, isParsable, isDigits), and min/max operations across primitives
 - [ ] Task 3: ArrayUtils with null-safe array operations (isEmpty, contains, indexOf, add, addAll, remove, subarray, clone, reverse, swap, shift, isSorted, nullToEmpty, toObject/toPrimitive, toMap, insert)
 - [ ] Task 4: ObjectUtils with null-safe object operations (defaultIfNull, firstNonNull, allNotNull, anyNull, compare, clone, identityToString, toString, isEmpty, min, max, mode, median, requireNonEmpty) and BooleanUtils with boolean/String/int conversions and logical operations
