@@ -5,8 +5,8 @@ Implement the library top-down by user-facing functionality. Start with the most
 
 ## Tasks
 - [x] Task 1: Maven project setup + StringUtils with null-safe string operations (isEmpty, isBlank, trim, strip, equals, contains, indexOf, substring, split, join, replace, remove, capitalize, pad, reverse, abbreviate, type checks, countMatches, wrap, normalizeSpace, defaultString, truncate, etc.)
-- [>] Task 2: NumberUtils with safe parsing (toInt, toLong, toFloat, toDouble), number creation (createNumber, createInteger), validation (isCreatable, isParsable, isDigits), and min/max operations across primitives
-- [ ] Task 3: ArrayUtils with null-safe array operations (isEmpty, contains, indexOf, add, addAll, remove, subarray, clone, reverse, swap, shift, isSorted, nullToEmpty, toObject/toPrimitive, toMap, insert)
+- [x] Task 2: NumberUtils with safe parsing (toInt, toLong, toFloat, toDouble), number creation (createNumber, createInteger), validation (isCreatable, isParsable, isDigits), and min/max operations across primitives
+- [>] Task 3: ArrayUtils with null-safe array operations (isEmpty, contains, indexOf, add, addAll, remove, subarray, clone, reverse, swap, shift, isSorted, nullToEmpty, toObject/toPrimitive, toMap, insert)
 - [ ] Task 4: ObjectUtils with null-safe object operations (defaultIfNull, firstNonNull, allNotNull, anyNull, compare, clone, identityToString, toString, isEmpty, min, max, mode, median, requireNonEmpty) and BooleanUtils with boolean/String/int conversions and logical operations
 - [ ] Task 5: CharUtils (ASCII classification, conversion, unicode escape) and Validate (notNull, notEmpty, notBlank, isTrue, validState, validIndex, matchesPattern, isInstanceOf, inclusiveBetween, exclusiveBetween, finite)
 - [ ] Task 6: Builder classes - EqualsBuilder (field-by-field and reflection-based equality), HashCodeBuilder (field-by-field and reflection hashing), CompareToBuilder (field-by-field comparison), and ToStringBuilder with ToStringStyle (DEFAULT, MULTI_LINE, SHORT_PREFIX, SIMPLE, JSON styles)
